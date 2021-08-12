@@ -2,9 +2,17 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background: #a2deaf;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +32,8 @@ textarea {
 
 .app-header__title {
   margin: 10px 20px 0px;
-  font-family: Arial, sans-serif;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .app-header__controls {
@@ -59,8 +68,8 @@ textarea {
   width: 200px;
   height: 200px;
   margin: 10px;
-  background-color: lightyellow;
-  border: 1px solid grey;
+  background-color: #fae698;
+  border: 1px solid darkgrey;
   box-shadow: 2px 2px 3px lightgrey;
   border-radius: 5px;
   display: flex;
@@ -91,11 +100,11 @@ textarea {
   top: 0px;
   right: 0px;
   font-size: 20px;
-  color: lightgrey;
+  color: black;
   padding: 5px;
 }
 
 .note__delete:hover {
-  color: black;
+  color: red;
   cursor: pointer;
 }
