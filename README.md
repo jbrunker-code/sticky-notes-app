@@ -7,5 +7,5 @@ Live Version: https://codesandbox.io/s/bold-sea-tr8kf?file=/src/App.js
 Technology Used
 
 - CSS - to style the app
-- JS/DOM Manipulation - to allow interaction between the user and the app
+- JS/React - to allow interaction between the user and the app
 - Local storage - to store notes between browser sessions
